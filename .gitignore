@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+/dist/
+/build/
+
+# Declaration files
+*.d.ts
+
+# Source Map files
+*.js.map
+*.d.ts.map
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
