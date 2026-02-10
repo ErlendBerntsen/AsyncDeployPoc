@@ -2,9 +2,9 @@
   "compilerOptions": {
     "target": "es2023",
     "module": "nodenext",
-    "rootDir": "src",
+    "rootDir": ".",
     "outDir": "dist",
     "strict": true
   },
-  "include": ["src"]
+  "include": ["tests", "src"]
 }
