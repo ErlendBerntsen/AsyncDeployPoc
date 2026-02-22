@@ -1,10 +1,7 @@
 {
-  "compilerOptions": {
-    "target": "es2023",
-    "module": "nodenext",
-    "rootDir": ".",
-    "outDir": "dist",
-    "strict": true
-  },
-  "include": ["tests", "src"]
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
