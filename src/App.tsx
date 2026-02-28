@@ -7,7 +7,8 @@ import type { User } from "./types/user";
 function App() {
   const [count, setCount] = useState(0);
   const user: User = {
-    name: "Erlend Berntsen",
+    firstName: "Erlend",
+    lastName: "Berntsen",
   };
   return (
     <>
@@ -22,7 +23,7 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-        <p>{"User name is " + user.name}</p>
+        <p>{"User first name is " + user.firstName + " and last name is " + user.lastName}</p>
       </div>
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
     </>
