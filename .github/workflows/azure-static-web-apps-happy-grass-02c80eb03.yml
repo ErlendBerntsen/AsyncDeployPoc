@@ -1,6 +1,8 @@
 name: Azure Static Web Apps CI/CD
 
 on:
+  repository_dispatch:
+    types: [pr-merged]
   push:
     branches:
       - main
@@ -67,4 +69,5 @@ jobs:
           app_location: "/"
           output_location: "dist"
           github_id_token: ${{ steps.idtoken.outputs.result }}
+
 
